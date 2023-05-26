@@ -1,28 +1,36 @@
-.showCase{
-	padding-top: 120px;
-	padding-bottom: 120px;
-	margin-top: 220px;
-	background: url(img/menu-bg.jpg) center;
-	background-size: cover;
+.card_product2{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
 }
 
-.product{
+.Showmenu2{
+	display: flex;
+	margin-left: 100px;
+}
+
+
+.Showmenu{
+	display: flex;
+	margin-left: 100px;
+	margin-top: 250px;
+
+}
+
+.card_product{
+	display: flex;
+	justify-content: center;
+	
+}
+
+.card{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.product_img{
 	height: 185px;
 	width: auto;
-}
-
-.description{
-	display: flex;
-	justify-content: center;
-}
-
-.main_show{
-	display: flex;
-	justify-content: center;
-    padding-top: 105px;
-	padding-bottom: 105px;
-    flex-wrap: wrap;
-	
 }
 
 .buy_case{

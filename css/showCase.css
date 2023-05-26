@@ -1,0 +1,44 @@
+.showCase{
+	padding-top: 120px;
+	padding-bottom: 120px;
+	margin-top: 220px;
+	background: url(img/menu-bg.jpg) center;
+	background-size: cover;
+}
+
+.product{
+	height: 185px;
+	width: auto;
+}
+
+.description{
+	display: flex;
+	justify-content: center;
+}
+
+.main_show{
+	display: flex;
+	justify-content: center;
+    padding-top: 105px;
+	padding-bottom: 105px;
+    flex-wrap: wrap;
+	
+}
+
+.buy_case{
+	margin-top: 20px;
+	text-decoration: none;
+	padding: 8px 32px;
+	border-radius: 15px;
+	border: solid 1px white;
+	background-color: #d9b78a;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.buy_case:hover{
+	background-color: white;
+	border: solid 1px #d9b78a;
+	transition: 1s;
+}
+

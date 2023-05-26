@@ -1,0 +1,42 @@
+.footer-area{
+    color: white;
+    background: url(img/footer-bg.jpg) center;
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+
+.mainDivFooter{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainDivFooter h1{
+    color: white;
+}
+
+.footerA{
+    padding-right: 190px;
+}
+
+.social img{
+    height: 50px;
+    padding-right: 10px;
+}
+
+.forma_news{
+    display: flex;
+}
+
+.forma_news button{
+    border: none;
+    background: #d9b78a;
+    border-radius: 15px;
+    padding: 8px 14px;
+    cursor: pointer;
+    margin-left: 5px;
+}

@@ -1,0 +1,22 @@
+@import url(header.css);
+@import url(basket.css);
+@import url(modalWindow.css);
+@import url(live.css);
+@import url(showCase.css);
+@import url(review.css);
+@import url(blog.css);
+@import url(footer.css);
+
+body{
+	color: #777777;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.625em;
+	position: relative;
+}
+
+/* background: #d9b78a; */
+

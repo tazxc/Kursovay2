@@ -1,0 +1,87 @@
+.nav-menu a{
+	font-size: large;
+}
+
+.nav-menu-container{
+	display: flex;
+}
+
+.nav-menu{
+	display: flex;
+	flex-direction: row;
+}
+
+.nav-menu li{
+	padding: 10px;
+	list-style-type: none;
+}
+
+.nav-menu a{
+	color: white;
+}
+
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+.back-img{
+	background: url(img/header-bg.jpg) center;
+	background-size: cover;
+}
+
+header{
+	display: flex;
+	justify-content: center;	
+}
+
+.logo{
+	display: flex;
+	margin-top: 20px;
+}
+
+.container-banner{
+	padding-left: 300px;
+	position: relative;
+	width: 100%;
+	margin-top: 250px;
+	margin-left: 100px;
+}
+
+.container-banner h6{
+	font-size: 20px;
+	color: white;
+	
+}
+
+.container-banner h1{
+	display: flex;
+	font-size: 50px;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 1.2;
+}
+
+.butt{
+	margin-top: 35px;
+	background-color: white;
+	border: solid 1px white;
+	color: black;
+	padding: 8px 42px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	border-radius: 15px;
+}
+
+.butt:hover{
+	background: none;
+	cursor: pointer;
+	color: white;
+	border: solid 1px;
+	transition: 1s;
+}

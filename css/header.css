@@ -78,6 +78,16 @@ header{
 	border-radius: 15px;
 }
 
+.butt a{
+	color: black;
+	font-size: 15px;
+}
+
+.butt a:hover{
+	color: white;
+	transition: 1s;
+}
+
 .butt:hover{
 	background: none;
 	cursor: pointer;

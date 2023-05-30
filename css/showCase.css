@@ -168,12 +168,32 @@
 	padding: 10px;
 	background: #F0F0F0;
 	color: black;
+	line-height: 1.55;
 }
 
 
 /*КОРЗИНА*/
 
+.info{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.infoContent{
+	display: flex;
+	
+}
+
+.infoContent p{
+	padding-inline: 95px;
+	color: black	;
+}
+
+.namePBasket{
+	width: 220px;
+	line-height: 1.5;
+}
 
 
 .basket{
@@ -184,6 +204,13 @@
 .basket img{
 	padding-right: 120px;
 	height: 145px;
+}
+
+.endBasket{
+	position: absolute;
+	bottom: 0px;
+	color: black;
+	
 }
 
 
@@ -198,6 +225,7 @@
 	justify-content: center;
 	align-items: center;
 	padding-top: 20px;
+	padding-right: 70px;
 }
 
 .cardProductBasket p{
@@ -264,10 +292,12 @@
 
 .nameProduct{
 	margin-bottom: 10px;
+	font-size: 20px;
 }
 
 .priceP{
 	margin: 0;
+	font-size: 15px;
 }
 
 .product_price{

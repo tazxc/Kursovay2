@@ -96,11 +96,11 @@ window.addEventListener('click', function(event) {
 			counterel.innerText = parseInt(counterel.innerText) + parseInt(productInfo.counter)
 		}else{
 
-			const cartItemHTML = `<div>
+			const cartItemHTML = `
 									<div class="cardProductBasket" data-id="${productInfo.id}">
  										<img src="${productInfo.imgSrc}" alt="">
 
- 										<p>${productInfo.title}</p>
+ 										<div class="namePBasket"><p>${productInfo.title}</p></div>
  									
 
  										<div class="counterBasket">
@@ -112,7 +112,7 @@ window.addEventListener('click', function(event) {
  										<p>${productInfo.price}</p>
 
  									</div>
-								</div>`
+								`
 
 
 

@@ -18,6 +18,15 @@
 	width: 40%;
 	z-index: 99999;
 	border-radius: 15px;
+	overflow-y: scroll;
+}
+
+.modal_content::-webkit-scrollbar{
+	width: 0;
+}
+
+.modal::-webkit-scrollbar{
+	width: 0;
 }
 
 .close_modal{

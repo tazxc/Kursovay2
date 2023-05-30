@@ -1,9 +1,9 @@
-.basket{
+.basketIco{
 	background: none;
 	border: none;
 	cursor: pointer;
 }
 
-.basket img{
+.basketIco img{
 	width: 40px;
 }

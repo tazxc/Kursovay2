@@ -56,6 +56,8 @@
 
 .Showmenu{
 	margin-top: 200px;
+	font-family: 'Times New Roman', Times, serif !important;
+	color: black;
 }
 
 
@@ -70,20 +72,6 @@
 	width: auto;
 	padding: 10px;
 }
-
-
-
-body{
-	padding: 0;
-	margin: 0;
-}
-
-
-
-
-
-
-
 
 .description{
 	display: flex;
@@ -179,6 +167,7 @@ body{
 .item_current{
 	padding: 10px;
 	background: #F0F0F0;
+	color: black;
 }
 
 
@@ -187,13 +176,14 @@ body{
 
 
 
-.bag_btn{
+.basket{
 	border: none;
 }
 
 
-.bag_btn img{
-	height: 100px;
+.basket img{
+	padding-right: 120px;
+	height: 145px;
 }
 
 
@@ -212,7 +202,8 @@ body{
 
 .cardProductBasket p{
 	padding-right: 200px;
-	font-size: 30px;
+	font-size: 25px;
+	color: black;
 }
 
 .counterBasket{

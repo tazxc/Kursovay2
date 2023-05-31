@@ -96,7 +96,7 @@ window.addEventListener('click', function(event) {
 			counterel.innerText = parseInt(counterel.innerText) + parseInt(productInfo.counter)
 		}else{
 
-			const cartItemHTML = `<div class="basket">
+			const cartItemHTML = `
 									<div class="cardProductBasket" data-id="${productInfo.id}">
  										<img src="${productInfo.imgSrc}" alt="">
 
@@ -109,10 +109,10 @@ window.addEventListener('click', function(event) {
 											<button class="item_control" data-action="plus">+</button>
 										</div>
 
- 										<p>${productInfo.price}</p>
+ 										<p class="productPriceBas">${productInfo.price}</p>
 
  									</div>
-								</div>
+								
 								`
 
 
@@ -122,9 +122,11 @@ window.addEventListener('click', function(event) {
 
 			card.querySelector('[data-counter]').innerText = '1'
 
+			
+
 		}
 
-
+		calcPrice()
 
 
 		// window.addEventListener('scroll', function() {
@@ -161,13 +163,16 @@ window.addEventListener('click', function(event){
 		if (parseInt(counterB.innerText) > 1) {
 			counterB.innerText = --counterB.innerText
 
-		}else if(event.target.closest('.cardProductBasket') && parseInt(counterB.innerText) === 1){
-			event.target.closest('.basket').remove()
+		}else if(event.target.closest('.basket') && parseInt(counterB.innerText) === 1){
+			event.target.closest('.cardProductBasket').remove()
+			
 		}
 
 		
 		
 	}
+
+	calcPrice()
 })
 
 

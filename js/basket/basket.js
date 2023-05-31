@@ -96,7 +96,7 @@ window.addEventListener('click', function(event) {
 			counterel.innerText = parseInt(counterel.innerText) + parseInt(productInfo.counter)
 		}else{
 
-			const cartItemHTML = `
+			const cartItemHTML = `<div class="basket">
 									<div class="cardProductBasket" data-id="${productInfo.id}">
  										<img src="${productInfo.imgSrc}" alt="">
 
@@ -112,6 +112,7 @@ window.addEventListener('click', function(event) {
  										<p>${productInfo.price}</p>
 
  									</div>
+								</div>
 								`
 
 
@@ -157,10 +158,14 @@ window.addEventListener('click', function(event){
 
 	if(event.target.dataset.action === 'minus'){
 
-		if (counterB.innerText > 1) {
+		if (parseInt(counterB.innerText) > 1) {
 			counterB.innerText = --counterB.innerText
 
+		}else if(event.target.closest('.cardProductBasket') && parseInt(counterB.innerText) === 1){
+			event.target.closest('.basket').remove()
 		}
+
+		
 		
 	}
 })

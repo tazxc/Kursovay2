@@ -30,6 +30,7 @@ a {
 .back-img{
 	background: url(img/header-bg.jpg) center;
 	background-size: cover;
+	
 }
 
 header{
@@ -94,4 +95,82 @@ header{
 	color: white;
 	border: solid 1px;
 	transition: 1s;
+}
+
+@media screen and (width: 412px) { 
+	.back-img{
+		width: 100%;
+	}
+
+	#header{
+		display: flex;
+		flex-direction: column !important;
+		align-items: center;
+	}
+	
+	.nav-menu{
+		display: flex;
+		flex-direction: column !important;
+	}
+
+	.container-banner{
+		display: flex;
+		flex-direction: column;
+		padding: 0px;
+	}
+
+	.container-banner h6{
+		font-size: 0px;
+	}
+
+	.container-banner h1{
+		font-size: 25px;
+	}
+
+	.livecontent{
+		flex-direction: column;
+		padding-left: 10px;
+	}
+
+	.livecontent img{
+		width: 395px;
+	}
+
+	.card_product{
+		display: flex;
+		flex-direction: column;
+		
+	}
+
+	.card_product2{
+		display: flex;
+		flex-direction: column;
+		margin-top: -200px !important;
+	}
+
+	.blog_content{
+		flex-direction: column !important;
+		align-items: center;
+	}
+
+	.blog_content img{
+		width: 350px;
+	}
+
+	.blog_img_first{
+		padding-right: 0px !important;
+	}
+
+	.mainDivFooter{
+		flex-direction: column !important;
+		align-items: center;
+	}
+
+	.footerA{
+		padding-right: 0px !important;
+	}
+
+	.social{
+		padding-top: 40px;
+	}
 }

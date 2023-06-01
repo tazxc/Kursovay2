@@ -15,8 +15,447 @@ body{
 	font-weight: 300;
 	line-height: 1.625em;
 	position: relative;
+	overflow-x: hidden;
 }
 
 
 /* background: #d9b78a; */
 
+@media screen and (max-width: 412px) { 
+	.back-img{
+		width: 100% !important;
+	}
+
+	#header{
+		display: flex;
+		flex-direction: column !important;
+		align-items: center;
+	}
+	
+	.nav-menu{
+		display: flex;
+		flex-direction: column !important;
+	}
+
+	.container-banner{
+		display: flex;
+		flex-direction: column;
+		padding: 0px;
+	}
+
+	.container-banner h6{
+		font-size: 0px;
+	}
+
+	.container-banner h1{
+		font-size: 25px;
+	}
+
+	.livecontent{
+		flex-direction: column;
+		padding-left: 10px;
+	}
+
+	.livecontent img{
+		width: 395px;
+	}
+
+	.card_product{
+		display: flex;
+		flex-direction: column;
+		
+	}
+
+	.card_product2{
+		display: flex;
+		flex-direction: column;
+		margin-top: -200px !important;
+	}
+
+	.blog_content{
+		flex-direction: column !important;
+		align-items: center;
+	}
+
+	.blog_content img{
+		width: 350px;
+	}
+
+	.blog_img_first{
+		padding-right: 0px !important;
+	}
+
+	.mainDivFooter{
+		flex-direction: column !important;
+		align-items: center;
+	}
+
+	.footerA{
+		padding-right: 0px !important;
+	}
+
+	.social{
+		padding-top: 40px;
+	}
+}
+
+@media screen and (max-width: 375px) { 
+	.back-img{
+		width: 100% !important;
+	}
+
+	#header{
+		display: flex;
+		flex-direction: column !important;
+		align-items: center;
+	}
+	
+	.nav-menu{
+		display: flex;
+		flex-direction: column !important;
+	}
+
+	.container-banner{
+		display: flex;
+		flex-direction: column;
+		padding: 0px;
+	}
+
+	.container-banner h6{
+		font-size: 0px;
+	}
+
+	.container-banner h1{
+		font-size: 25px;
+	}
+
+	.livecontent{
+		flex-direction: column;
+		padding-left: 10px;
+	}
+
+	.livecontent img{
+		width: 395px;
+	}
+
+	.card_product{
+		display: flex;
+		flex-direction: column;
+		
+	}
+
+	.card_product2{
+		display: flex;
+		flex-direction: column;
+		margin-top: -200px !important;
+	}
+
+	.blog_content{
+		flex-direction: column !important;
+		align-items: center;
+	}
+
+	.blog_content img{
+		width: 350px;
+	}
+
+	.blog_img_first{
+		padding-right: 0px !important;
+	}
+
+	.mainDivFooter{
+		flex-direction: column !important;
+		align-items: center;
+	}
+
+	.footerA{
+		padding-right: 0px !important;
+	}
+
+	.social{
+		padding-top: 40px;
+	}
+}
+
+@media screen and (max-width: 321px) { 
+	.back-img{
+		width: 100%;
+	}
+
+	#header{
+		display: flex;
+		flex-direction: column !important;
+		align-items: center;
+	}
+	
+	.nav-menu{
+		display: flex;
+		flex-direction: column !important;
+	}
+
+	.container-banner{
+		display: flex;
+		flex-direction: column;
+		padding: 0px;
+	}
+
+	.container-banner h6{
+		font-size: 0px;
+	}
+
+	.container-banner h1{
+		font-size: 25px;
+	}
+
+	.livecontent{
+		flex-direction: column;
+		padding-left: 10px;
+	}
+
+	.livecontent img{
+		width: 395px;
+	}
+
+	.card_product{
+		display: flex;
+		flex-direction: column;
+		
+	}
+
+	.card_product2{
+		display: flex;
+		flex-direction: column;
+		margin-top: -200px !important;
+	}
+
+	.blog_content{
+		flex-direction: column !important;
+		align-items: center;
+	}
+
+	.blog_content img{
+		width: 350px;
+	}
+
+	.blog_img_first{
+		padding-right: 0px !important;
+	}
+
+	.mainDivFooter{
+		flex-direction: column !important;
+		align-items: center;
+	}
+
+	.footerA{
+		padding-right: 0px !important;
+	}
+
+	.social{
+		padding-top: 40px;
+	}
+}
+
+@media screen and (max-width: 440px) { 
+	.back-img{
+		width: 100%;
+	}
+
+	#header{
+		display: flex;
+		flex-direction: column !important;
+		align-items: center;
+	}
+	
+	.nav-menu{
+		display: flex;
+		flex-direction: column !important;
+	}
+
+	.container-banner{
+		display: flex;
+		flex-direction: column;
+		padding: 0px;
+	}
+
+	.container-banner h6{
+		font-size: 0px;
+	}
+
+	.container-banner h1{
+		font-size: 25px;
+	}
+
+	.livecontent{
+		flex-direction: column;
+		padding-left: 10px;
+	}
+
+	.livecontent img{
+		width: 395px;
+	}
+
+	.card_product{
+		display: flex;
+		flex-direction: column;
+		
+	}
+
+	.card_product2{
+		display: flex;
+		flex-direction: column;
+		margin-top: -200px !important;
+	}
+
+	.blog_content{
+		flex-direction: column !important;
+		align-items: center;
+	}
+
+	.blog_content img{
+		width: 350px;
+	}
+
+	.blog_img_first{
+		padding-right: 0px !important;
+	}
+
+	.mainDivFooter{
+		flex-direction: column !important;
+		align-items: center;
+	}
+
+	.footerA{
+		padding-right: 0px !important;
+	}
+
+	.social{
+		padding-top: 40px;
+	}
+
+	.bannerDelete{
+		height: 0px !important;
+		width: 0px !important;
+	}
+}
+
+
+@media all and (max-width: 768px) {
+	header{
+		flex-direction: column !important;
+		align-items: center;
+	}
+
+	.nav-menu{
+		flex-direction: column;
+	}
+
+	.bannerDelete{
+		height: auto !important;
+		width: 600px !important;
+		display: none;
+	}
+	
+	.container-banner{
+		padding-left: 0px;
+		margin-top: 0px;
+		width: 600px;	
+	}
+
+	.container-banner h6{
+		font-size: 15px;
+		margin: 0;
+		width: 300px;
+	}
+
+	.container-banner h1{
+		font-size: 25px;
+		margin: 0;
+		width: 100px;
+	}
+
+	.butt{
+		margin-bottom: 300px;
+	}
+
+	.livecontent{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.livecontent img{
+		padding: 0;
+		width: 600px;
+		
+	}
+
+	.card_product{
+		flex-direction: column;
+	}
+
+	.card_product2{
+		flex-direction: column;
+		margin-top: 0;
+	}
+
+	.blog_img_first{
+		padding: 0;
+	}
+
+	.blog_content{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.mainDivFooter{
+		flex-direction: column;
+	}
+}
+
+@media all and (max-width: 1300px) {
+	.bannerDelete{
+		display: none;
+	}
+}
+
+@media all and (max-width: 530px) {
+		.livecontent img{
+			width: 300px;
+		}
+
+		.blog_content img{
+			width: 300px;
+		}
+
+		.modal_content{
+			padding: 0;
+			margin: auto;
+			height: inherit !important;
+			width: auto !important;
+		}
+		.cardProductBasket{
+			padding: 0;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		.basket img{
+			padding: 0;
+		}
+
+		.namePBasket{
+			width: 75px;
+		}
+
+		.counterBasket{
+			padding-right: 0;
+		}
+
+		.productPriceBas{
+			padding-right: 0 !important;
+		}
+		
+		.info{
+			display: none;
+		}
+}

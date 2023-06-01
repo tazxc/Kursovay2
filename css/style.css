@@ -409,6 +409,45 @@ body{
 	.mainDivFooter{
 		flex-direction: column;
 	}
+
+	.modal_content{
+		padding: 0;
+		margin: auto;
+		height: inherit !important;
+		width: auto !important;
+	}
+	.cardProductBasket{
+		padding: 0;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.basket img{
+		padding: 0;
+	}
+
+	.namePBasket{
+		width: 75px;
+	}
+
+	.counterBasket{
+		padding-right: 0;
+	}
+
+	.productPriceBas{
+		padding-right: 0 !important;
+	}
+	
+	.info{
+		display: none;
+	}
+
+	form{
+		display: flex;
+    	align-items: center;
+    	flex-direction: column;
+	}
 }
 
 @media all and (max-width: 1300px) {
@@ -437,25 +476,5 @@ body{
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
-		}
-		
-		.basket img{
-			padding: 0;
-		}
-
-		.namePBasket{
-			width: 75px;
-		}
-
-		.counterBasket{
-			padding-right: 0;
-		}
-
-		.productPriceBas{
-			padding-right: 0 !important;
-		}
-		
-		.info{
-			display: none;
 		}
 }

@@ -180,25 +180,54 @@ window.addEventListener('click', function(event){
 
 // модальное окно
 
-
+const b = document.querySelector(".basketIco")
 const modal = document.querySelector('.modal')
 const btn = document.querySelector('.basketIco')
 const span = document.querySelector('.close_modal')
 
-
-btn.addEventListener('click', function(){
-    modal.style.display = "block"
+b.addEventListener('click', function(){
+    if(document.querySelector('.modal .cardProductBasket') === null){
+        b.setAttribute('disabled', '')
+        Swal.fire({
+            title: 'Корзина пуста!',
+            text: 'Заполните корзину',
+            icon: 'error',
+            confirmButtonText: 'Окей'
+          })    
+    }else{
+		b.removeAttribute('disabled')
+	}	
 })
 
-span.addEventListener("click", function(){
-    modal.style.display = "none"
+
+
+const buy = document.querySelectorAll('.buy_case')
+
+window.addEventListener('click', function(event){
+	if(event.target.dataset.action === 'b'){
+		b.removeAttribute('disabled')
+		btn.addEventListener('click', function(){
+			modal.style.display = "block"
+			})
+		
+			span.addEventListener("click", function(){
+				modal.style.display = "none"
+			})
+		
+			window.onclick = function(event){
+				if(event.target == modal){
+					modal.style.display = "none"
+				}
+		}
+		
+	}
+	
 })
 
-window.onclick = function(event){
-    if(event.target == modal){
-        modal.style.display = "none"
-    }
-}
+	
+
+
+
 
 
 

@@ -4,8 +4,12 @@
 	padding-top: 245px;
 }
 
-.livecontent img{
+.livecontent video{
 	padding-right: 100px;
+}
+
+.livecontent video{
+	width: 600px;
 }
 
 .livecontent h6{

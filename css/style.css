@@ -56,7 +56,7 @@ body{
 		padding-left: 10px;
 	}
 
-	.livecontent img{
+	.livecontent video{
 		width: 395px;
 	}
 
@@ -134,7 +134,7 @@ body{
 		padding-left: 10px;
 	}
 
-	.livecontent img{
+	.livecontent video{
 		width: 395px;
 	}
 
@@ -212,7 +212,7 @@ body{
 		padding-left: 10px;
 	}
 
-	.livecontent img{
+	.livecontent video{
 		width: 395px;
 	}
 
@@ -290,7 +290,7 @@ body{
 		padding-left: 10px;
 	}
 
-	.livecontent img{
+	.livecontent video{
 		width: 395px;
 	}
 
@@ -382,7 +382,7 @@ body{
 		align-items: center;
 	}
 
-	.livecontent img{
+	.livecontent video{
 		padding: 0;
 		width: 600px;
 		
@@ -461,7 +461,7 @@ body{
 }
 
 @media all and (max-width: 530px) {
-		.livecontent img{
+		.livecontent video{
 			width: 300px;
 		}
 
